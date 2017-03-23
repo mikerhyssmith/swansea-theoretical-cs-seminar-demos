@@ -1,0 +1,21 @@
+{
+  "name": "machine-learning-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build:live",
+    "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./app/index.ts"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^7.0.8",
+    "nodemon": "^1.11.0",
+    "ts-node": "^2.1.0",
+    "typescript": "^2.2.1"
+  },
+  "dependencies": {
+    "bayes": "0.0.6",
+    "csv-parser": "^1.11.0",
+    "synaptic": "^1.0.10"
+  }
+}
